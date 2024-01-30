@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<style type="text/css">
+	    *{
+		    margin: 0px;
+		    padding:0px;
+	    }
+	    .nav{
+			position: fixed;
+			opacity: 0.9;
+			height:100px;
+			width:100%;
+			background:black;
+			float: left;
+			
+		}
+		.h1_1{
+			color: #f2b31f ;
+			font-family:Viner Hand ITC;
+			font-size: 50px;
+			float: left;
+			opacity: 1;
+			margin-top: 20px;
+			margin-left:150px ;
+
+		}
+		.button{
+			margin-top: 40px;
+			text-align: center;
+			margin-left:465px;
+			background:transparent;
+			float: left;
+			opacity:0.7;
+			height:40px;
+			width:110px;
+			transition: 0.3s;
+			opacity:0.7;
+		}
+		.button:hover{
+			border-bottom: 3px solid whitesmoke;
+			transition: 0.3s;
+			opacity:1;
+
+		}
+		.button_a{
+			margin-top: 40px;
+			border-bottom: 3px solid #f2b31f ;
+			color: #f2b31f;
+			margin-left:50px;
+			background:transparent;
+			float: left;
+			height:40px;
+			width: 110px;
+			opacity:1;
+
+		}
+
+		.button2{
+			margin-top: 40px;
+			margin-left:50px;
+			background:transparent;
+			float: left;
+			height:40px;
+
+			width: 110px;
+			opacity:0.7;
+		}
+		.button2:hover{
+			border-bottom: 3px solid white;
+			transition: 0.3s;
+			opacity:1;
+
+		}
+
+		
+		.a_1{
+			color: whitesmoke;
+			text-decoration: none;
+			font-size:18px;
+			font-family:Bahnschrift;
+			text-align: center;
+
+		}
+		.a_2{
+			color: whitesmoke;
+			text-decoration: none;
+			font-size:18px;
+			font-family:Bahnschrift;
+			margin-left:20px;
+			text-align: center;
+
+		}
+		.a_3{
+			color: #f2b31f;
+			text-decoration: none;
+			font-size:18px;
+			margin-left:25px;
+			font-family:Bahnschrift;
+			text-align: center;
+
+		}
+		.a_4{
+			color: whitesmoke;
+			text-decoration: none;
+			font-size:18px;
+			margin-left:30px;
+			font-family:Bahnschrift;
+			text-align: center;
+
+		}
+		.div_b{
+			height:300px;
+			width: 100%;
+			background-color: black;
+			float: left;
+		}
+		.h1_n{
+			color:white;
+			font-family:Bahnschrift;
+			font-size:55px;
+			margin-left:700px;
+			margin-top:160px;
+		}
+		.big{
+			height:auto;
+			width: 100%;
+		}
+
+		.div1{                                                  /*DIV1*/
+			height:600px;
+			width:100%;
+			float: left;
+
+		}	
+		.img1{
+			height: 400px;
+			margin-left:300px;
+			margin-top:50px;
+			width:850px;
+
+		}
+		.div2{                                           /*Div2*/
+			height:600px;
+			float: left;
+			width:100%;
+			background-color:transparent;
+
+		}
+		.div_21{
+			height: 100%;
+			width: 50%;
+			float: left;
+			background-color:#000033;
+		}
+		.img2{
+			height:60%;
+			float: left;
+			width: 50%;
+			box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
+			margin-left:25%;
+			margin-top:20%;
+		}
+		.h1_AS{
+			color: white;
+			margin-left:100px;
+			margin-top: 150px;
+			font-family:Bahnschrift;
+			font-size:55px;
+		}
+		.h3_AS{
+			color: white;
+			margin-right: 25%;
+			margin-top:25px;
+			font-family:Bahnschrift ;
+			font-size:20px;
+
+		}
+
+		.div_22{
+			height: 100%;
+			width: 50%;
+			float: left;
+			background-color:#000033;
+		}
+
+		.div3{                                           /*Div3*/
+			height:700px;
+			float: left;
+			width:100%;
+			background-color:transparent;
+
+		}
+		.div_31{
+			height: 100%;
+			width: 50%;
+			float: left;
+			background-color:#00004d;
+		}
+		.img3{
+			height:55%;
+			float: left;
+			width: 50%;
+			margin-left:25%;
+			margin-top:20%;
+			box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
+           
+			
+		}
+
+		.h1_N{
+			color: white;
+			margin-left:100px;
+			margin-top: 150px;
+			font-family:Bahnschrift;
+			font-size:55px;
+		}
+		.h3_N{
+			color: white;
+			margin-right:25%;
+			margin-top:25px;
+			font-family:Bahnschrift ;
+			font-size:20px;
+
+		}
+		
+		.div_32{
+			height: 100%;
+			width: 50%;
+			float: left;
+			background-color:#00004d;
+		}
+		.div4{                                           /*Div2*/
+			height:600px;
+			float: left;
+			width:100%;
+			background-color:transparent;
+
+		}
+		.div_41{
+			height: 100%;
+			width: 50%;
+			float: left;
+			background-color:#000066;
+		}
+		.img4{
+			height:60%;
+			float: left;
+			width: 50%;
+			margin-left:25%;
+			margin-top:10%;
+			box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
+           
+			
+		}
+		
+
+		.h1_A{
+			color: white;
+			margin-left:100px;
+			margin-top: 150px;
+			font-family:Bahnschrift;
+			font-size:55px;
+		}
+		.h3_A{
+			color: white;
+			margin-right: 25%;
+			margin-top:25px;
+			font-family:Bahnschrift ;
+			font-size:20px;
+
+		}
+		.div_42{
+			height: 100%;
+			width: 50%;
+			float: left;
+			background-color:#000066;
+		}
+		.div_m{
+			height: 600px;
+			width: 100%;
+			float: left;
+		}
+		.div_M{
+			height:350px;
+			width: 80%;
+			margin-left:10%;
+			margin-top: 125px;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+		}
+		.h1_M{
+			font-family:Bahnschrift;
+			font-size:50px;
+			color:#f2b31f;
+			margin-left:450px;
+			float: left	;
+			margin-top:20px;
+
+		}
+		.h3_M{
+			font-family:Bahnschrift;
+			font-size:25px;
+			float: left;
+			margin-left:100px;
+			margin-right:100px;
+			margin-top:30px;
+		}
+
+
+
+
+
+
+
+		.div5{                                                   /*Footer*/
+			height: 450px;
+			width: 1519px;
+			background-color: black;
+			float: left;
+		}
+		.f1{
+			height:400px;
+			width:40%;	
+			float: left;
+			
+		}
+		.h1_14{
+			margin-left:150px;
+			margin-top:120px;
+			color: #f2b31f;
+			font-family:Viner Hand ITC ;
+			font-size:50px;
+		}
+		.h3_2{
+			margin-left:150px;
+			margin-top:20px;
+			color: whitesmoke;
+			font-family:Bahnschrift ;
+			font-size:17px;
+
+		}
+		.f2{
+			height:400px;
+			width:60%;	
+			float: left;
+
+		}
+		.h1_15{
+			color: whitesmoke ;
+			font-size:30px;
+			margin-top:50px;
+			font-family:Bahnschrift;
+			margin-left: 150px;
+		}
+		.h1_16{
+        	color: whitesmoke;
+        	margin-top:-150px;
+        	font-size:20px;
+        	font-family:Bahnschrift;
+        	margin-left: 450px;
+
+        }
+        .a_11{
+			color: #f2b31f;
+			font-family:Bahnschrift;
+			font-size: 17px;
+			transition-duration:1s;
+			text-decoration: none;
+			margin-left: 150px;
+		}
+
+		.a_12{
+			color: whitesmoke;
+			font-family:Bahnschrift;
+			font-size: 18px;
+			transition-duration:1s;
+			text-decoration: none;
+			margin-left: 150px;
+		}
+		.a_12:hover{
+			color: #f2b31f;
+            transition: 0.5s;
+		}
+		.button_last{
+			margin-top: 10px;
+			padding: 15px;
+			text-align: center;
+			margin-left:450px;
+			background-color:#f2b31f;
+			float: left;
+			font-family: Bahnschrift;
+			opacity:0.7;
+			height:50px;
+			transition-duration:1s;
+			width:270px;
+			opacity:0.8;
+		}
+		.button_last:hover{
+			transition: 0.3s;
+			opacity:1;
+		}
+
+        .f3{
+        	height:50px;
+			width:100%;	
+			float: left;
+			background-color:black;
+
+        }
+        .h1_17{
+        	color: whitesmoke;
+        	font-size:15px;
+        	font-family:Bahnschrift;
+        	margin-left: 150px;
+
+        }
+        .img_twitter{
+			height:20px ;
+			width:30px ;
+			margin-top:6px;
+
+		}
+		.img_facebook{
+			height:20px ;
+			width:20px ;
+			margin-top:6px;
+
+		}
+		.img_instagram{
+			height:20px ;
+			width:20px ;
+			margin-top:5px;
+
+		}
+		.a{
+			color:#f2b31f; 
+			font-size: 20px;
+		    float: left;
+		    opacity: 1;
+		    font-family: Bahnschrift;
+		    margin-left: 30px;
+		    text-decoration: none;
+
+		}
+		.a:hover{
+			opacity:0.6;	
+			transition: 0.7s;
+		}
+	
+	</style>
+</head>
+<body>
+	<div class="nav">
+				<h1 class="h1_1">DisCover</h1>
+			    <a href="homepage_final.html" class="a_1" ><div class="button">Home</div></a>
+			    <a href="#" class="a_3"><div class="button_a">About</div></a>
+			    <a href="contact.html" class="a_2"><div class="button2">Contact</div></a>
+			    <a href="more.html" class="a_4"><div class="button2">More</div></a>	
+	</div>
+	<div class="div_b"> <h1 class="h1_n">About </h1></div>
+	<div class="big">
+
+	    <div class="div1">
+		    <img src="../images/main.png" class="img1">
+	    </div >
+	    <div class="div2">
+		    <div class="div_21" >
+		    	<img src="../images/Anushka.png" class="img2">
+			
+		    </div>
+		    <div class="div_22" >
+		    	<h1 class="h1_AS">Anushka Sharma</h1>
+		    	<h3 class="h3_AS">She is currently a student of DPS Gomtinager Ext. Uttar-Pradesh, India. She has played a major role in the development of the website by designing the website and collecting data. She is curious about understanding universe and reading the research papers and books by various famous Physicists.</h3>
+			
+		    </div>
+		
+	        </div>
+	    <div class="div3">
+		    <div class="div_31" >
+		    	<img src="../images/Nirmit.png" class="img3">
+			
+		    </div>
+		    <div class="div_32" >
+		    	<h1 class="h1_N">Nirmit Singh</h1>
+		    	<h3 class="h3_N">He is currently a student of DPS Gomtinager Ext. Uttar Pradesh, India.He has played a major role in the development of the Video, Webpages and collecting Data. He is a great Swimmer and basket ball player. He has recived best circuit award in inquest 2018-the science circuit. He is an Eager learner too... </h3>
+
+			
+		    </div>
+		
+	    </div>
+	    <div class="div4">
+		    <div class="div_41" >
+		    	<img src="../images/Aayush.png" class="img4">
+			
+		    </div>
+		    <div class="div_42" >
+		    	<h1 class="h1_A">Aayush Swami</h1>
+		    	<h3 class="h3_A">He is currently a student of DPS Gomtinager Ext. Uttar Pradesh, India. He has played a major role in the development of the webpages, Audio work and collecting Data. He is an active participent of Model United Nations. He has a bright mind. He is a good runner and swimmer as well... </h3>
+			
+		    </div>
+		
+	    </div>
+	    <div class="div_m">
+	    	<div class="div_M">
+	    		<h1 class="h1_M">Our Mission</h1>
+	    		<h3 class="h3_M">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Generally, we don't appreciate the contributions of unknown people or things that  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;discovered the little things that have affected our lives. Our mission  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;is to spread information about the  unknowns that have  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; either changed or may change our &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;understanding and our lives... </h3>
+	    	</div>
+	    	
+	    </div>
+
+
+
+
+        </div>
+	    <div class="div5">
+			<div class="f1">
+				<h1 class="h1_14">DisCover</h1>
+				<h3 class="h3_2	">Let us discover the discoverer of Mars, Saturn, Jupiter, Mercury, Venus, Neptune, Interstellar space, Moon and Sun, learn their importance and spread the knowledge together …  </h3>
+				
+			</div>
+			<div class="f2">
+				<h1 class="h1_15">Quick Links</h1><br>
+				<a href="Homepage_final.html" class="a_12">Home</a><br><br>
+				<a href="#" class="a_11">About</a><br><br>
+				<a href="contact.html" class="a_12">Contact</a><br><br>
+				<a href="more.html" class="a_12">More</a><br><br>
+
+				<h1 class="h1_16">For any quaries and complaints </h1><br>
+				<a href="contact.html" style="text-decoration:none; color:black;"><h1 class="button_last">Contact Us</h1></a>
+				
+				<h3 style="color:white; float: left; margin-left: 460px; font-family: Bahnschrift; margin-top:5px;">follow us on:</h3>
+			    <a href="#" class="a"><img class="img_twitter" src="../images/twitter.png"></a>
+			    <a href="#" class="a"><img class="img_facebook" src="../images/facebook.png"></a>
+			    <a href="#" class="a"><img class="img_instagram" src="../images/instagram.png"></a>
+
+			</div>
+			
+			    
+			<div class="f3">
+				<h1 class="h1_17">Copyright 2021 Discover.com. All Copyrights Reserved.</h1>
+			</div>
+			
+	    </div>
+</body>
+</html>

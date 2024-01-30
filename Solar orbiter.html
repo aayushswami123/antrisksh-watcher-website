@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		*{
+			margin: 0px;
+			padding: 0px;
+
+		}
+		.nav{
+			position: fixed;
+			opacity: 0.9;
+			height:100px;
+			width:100%;
+			background:black;
+			float: left;
+			
+		}
+		.h1_1{
+			color: #f2b31f ;
+			font-family:Viner Hand ITC;
+			font-size: 50px;
+			float: left;
+			opacity: 1;
+			margin-top: 20px;
+			margin-left:150px ;
+
+		}
+		.button{
+			margin-top: 40px;
+			text-align: center;
+			margin-left:465px;
+			background:transparent;
+			float: left;
+			opacity:0.7;
+			height:40px;
+			width:110px;
+			transition: 0.3s;
+			opacity:0.7;
+		}
+		.button:hover{
+			border-bottom: 3px solid whitesmoke;
+			transition: 0.3s;
+			opacity:1;
+
+		}
+		.button2{
+			margin-top: 40px;
+			margin-left:50px;
+			background:transparent;
+			float: left;
+			height:40px;
+
+			width: 110px;
+			opacity:0.7;
+		}
+		.button2:hover{
+			border-bottom: 3px solid white;
+			transition: 0.3s;
+			opacity:1;
+
+		}
+
+		
+		.a_1{
+			color: whitesmoke;
+			text-decoration: none;
+			font-size:18px;
+			font-family:Bahnschrift;
+			text-align: center;
+
+		}
+		.a_2{
+			color: whitesmoke;
+			text-decoration: none;
+			font-size:18px;
+			font-family:Bahnschrift;
+			margin-left:20px;
+			text-align: center;
+
+		}
+		.a_3{
+			color: whitesmoke;
+			text-decoration: none;
+			font-size:18px;
+			margin-left:25px;
+			font-family:Bahnschrift;
+			text-align: center;
+
+		}
+		.a_4{
+			color: whitesmoke;
+			text-decoration: none;
+			font-size:18px;
+			margin-left:30px;
+			font-family:Bahnschrift;
+			text-align: center;
+
+		}
+		.img1{
+			height:500px;
+			float: left;
+			width: 90%;
+			margin-bottom:20px;
+			margin-top:20px;
+			margin-left:50px;
+		}
+		.img2{
+			height:500px;
+			width:957px;
+			float: left;
+			margin-bottom:20px;
+			margin-left:0px;
+		}
+		.img3{
+			height:600px;
+			width:957px;
+			margin-bottom:20px;
+			float: left;
+			margin-left:0px;
+		}
+
+		.div1{
+			background-color:white ;
+			height:2500px;
+			width:100%;
+		}
+		.div_b{
+			height:300px;
+			width: 100%;
+			background-color: black;
+			float: left;
+		}
+		.h1_n{
+			color:white;
+			font-family:Bahnschrift;
+			font-size:55px;
+			margin-left:650px;
+			margin-top:160px;
+		}
+		.div2{
+			background-color:white;
+			/*border:.5px solid grey;*/
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+			height:1900px;
+			width: 70%;
+			float: left;
+			margin-top:150px;
+			margin-left:15%;
+
+		}
+		.h1_2{
+			color: #f2b31f;
+			font-family:Bahnschrift;
+			text-align: center;
+			float: left	;
+			margin-top:20px;
+			margin-left:35%;
+			font-size:60px;
+
+
+		}
+	
+
+		
+		.h3_1{
+			color:black;
+			font-size:20px;
+			margin-left:50px;
+			margin-right:400px;
+			font-family:Bahnschrift;
+
+		}                                                              /*footer*/
+
+		.div5{
+			height: 450px;
+			width: 1519px;
+			background-color: black;
+			float: left;
+		}
+		.f1{
+			height:400px;
+			width:40%;	
+			float: left;
+			
+		}
+		.h1_14{
+			margin-left:150px;
+			margin-top:120px;
+			color: #f2b31f;
+			font-family:Viner Hand ITC ;
+			font-size:50px;
+		}
+		.h3_2{
+			margin-left:150px;
+			margin-top:20px;
+			color: whitesmoke;
+			font-family:Bahnschrift ;
+			font-size:17px;
+
+		}
+		.f2{
+			height:400px;
+			width:60%;	
+			float: left;s
+
+		}
+		.h1_15{
+			color: whitesmoke ;
+			font-size:30px;
+			margin-top:50px;
+			font-family:Bahnschrift;
+			margin-left: 150px;
+		}
+		.h1_16{
+        	color: whitesmoke;
+        	margin-top:-150px;
+        	font-size:20px;
+        	font-family:Bahnschrift;
+        	margin-left: 450px;
+
+        }
+
+		.a_12{
+			color: whitesmoke;
+			font-family:Bahnschrift;
+			font-size: 18px;
+			transition-duration:1s;
+			text-decoration: none;
+			margin-left: 150px;
+		}
+		.a_12:hover{
+			color: #f2b31f;
+            transition: 0.5s;
+		}
+		.button_last{
+			margin-top: 10px;
+			padding: 15px;
+			text-align: center;
+			margin-left:450px;
+			background-color:#f2b31f;
+			float: left;
+			font-family: Bahnschrift;
+			opacity:0.7;
+			height:50px;
+			transition-duration:1s;
+			width:270px;
+			opacity:0.8;
+		}
+		.button_last:hover{
+
+			transition: 0.3s;
+			opacity:1;
+
+
+		}
+
+        .f3{
+        	height:50px;
+			width:100%;	
+			float: left;
+			background-color:black;
+
+        }
+        .h1_17{
+        	color: whitesmoke;
+        	font-size:15px;
+        	font-family:Bahnschrift;
+        	margin-left: 150px;
+
+        }
+        .img_twitter{
+			height:20px ;
+			width:30px ;
+			margin-top:6px;
+
+		}
+		.img_facebook{
+			height:20px ;
+			width:20px ;
+			margin-top:6px;
+
+		}
+		.img_instagram{
+			height:20px ;
+			width:20px ;
+			margin-top:5px;
+
+		}
+		.a{
+			color:#f2b31f; 
+			font-size: 20px;
+		    float: left;
+		    opacity: 1;
+		    font-family: Bahnschrift;
+		    margin-left: 30px;
+		    text-decoration: none;
+
+		}
+		.a:hover{
+			opacity:0.6;	
+			transition: 0.7s;
+		}
+		
+	</style>
+</head>
+<body>
+
+	<div class="nav">
+				<h1 class="h1_1">DisCover</h1>
+			    <a href="homepage_final.html" class="a_1" ><div class="button">Home</div></a>
+			    <a href="About.html" class="a_3"><div class="button2">About</div></a>
+			    <a href="contact.html" class="a_2"><div class="button2">Contact</div></a>
+			    <a href="more.html" class="a_4"><div class="button2">More</div></a>	
+	</div>
+	<div class="div1">
+		<div class="div_b"> <h1 class="h1_n">Discoverer </h1></div>
+		<div class="div2">
+			<h1 class="h1_2">Solar Orbiter</h1>
+
+			<img src="../images/SS.png" class="img1">
+			<br><br>
+			<h3 class="h3_1">
+
+
+				The Solar Orbiter (SolO) is a Sun-observing satellite, developed by the <font color="#f2b31f">European Space Agency</font> (ESA). SolO is intended to perform detailed measurements of the inner heliosphere and nascent solar wind, and perform close observations of the polar regions of the Sun, which is difficult to do from Earth, both serving to answer the question <font color="#f2b31f">"How does the Sun create and control the heliosphere?"</font><br><br>
+
+
+			    SolO makes observations of the Sun from an eccentric orbit moving as close as ≈60 solar radii (RS), or <font color="#f2b31f">0.284 astronomical units</font> (au), placing it inside Mercury's perihelion of 0.3075 au. During the mission the orbital inclination will be raised to about 24°. The total mission cost is <font color="#f2b31f">US$1.5 billion</font>, counting both ESA and NASA contributions.<br><br>
+
+                SolO was launched on <font color="#f2b31f">10 February 2020</font>. The mission is planned to last <font color="#f2b31f">7 years</font>.<br><br>
+
+                The Solar Orbiter spacecraft is a <font color="#f2b31f">Sun-pointed, three-axis stabilised platform</font> with a dedicated heat shield to provide protection from the high levels of solar flux near perihelion. The spacecraft provides a stable platform to accommodate the combination of remote-sensing and in situ instrumentation in an electromagnetically clean environment. The<font color="#f2b31f"> 21 sensors</font> were configured on the spacecraft to allow each to conduct its in situ or remote-sensing experiments with both access to and protection from the solar environment. Solar Orbiter has inherited technology from previous missions, such as the solar arrays from the BepiColombo Mercury Planetary Orbiter (MPO). The solar arrays can be rotated about their longitudinal axis to avoid overheating when close to the Sun. A battery pack provides supplementary power at other points in the mission such as eclipse periods encountered during planetary flybys.<br><br>
+
+
+
+				The spacecraft makes a <font color="#f2b31f">close approach to the Sun every six months</font>. The closest approach will be positioned to allow a repeated study of the same region of the solar atmosphere. Solar Orbiter will be able to observe the magnetic activity building up in the atmosphere that can lead to powerful solar flares or eruptions.Researchers will also have the chance to coordinate observations with NASA's Parker Solar Probe mission which is performing measurements of the Sun's extended corona.The objective of the mission is to perform close-up, high-resolution studies of the Sun and its inner heliosphere.
+				<br>
+				 <font face="Bahnschrift"><br>  
+				 <h3 style=" margin-left:0px; font-size:20px;"> <font face="Bahnschrift">Courtesy: Wikipedia </font></h3>
+
+            </h3>
+		</div>
+	</div>
+	<div class="div5">
+			<div class="f1">
+				<h1 class="h1_14">DisCover</h1>
+				<h3 class="h3_2	">Let us discover the discoverer of Mars, Saturn, Jupiter, Mercury, Venus, Neptune, Interstellar space, Moon and Sun, learn their importance and spread the knowledge together …  </h3>
+				
+			</div>
+			<div class="f2">
+				<h1 class="h1_15">Quick Links</h1><br>
+				<a href="homepage_final.html" class="a_12">Home</a><br><br>
+				<a href="About.html" class="a_12">About</a><br><br>
+				<a href="contact.html" class="a_12">Contact</a><br><br>
+				<a href="more.html" class="a_12">More</a><br><br>
+
+				<h1 class="h1_16">For any quaries and complaints </h1><br>
+				<a href="contact.html" style="text-decoration:none; color:black;"><h1 class="button_last">Contact Us</h1></a>
+				
+				<h3 style="color:white; float: left; margin-left: 460px; font-family: Bahnschrift; margin-top:5px;">follow us on:</h3>
+			    <a href="#" class="a"><img class="img_twitter" src="../images/twitter.png"></a>
+			    <a href="#" class="a"><img class="img_facebook" src="../images/facebook.png"></a>
+			    <a href="#" class="a"><img class="img_instagram" src="../images/instagram.png"></a>
+
+			</div>
+			
+			    
+			<div class="f3">
+				<h1 class="h1_17">Copyright 2021 Discover.com. All Copyrights Reserved.</h1>
+			</div>
+			
+		</div>
+
+</body>
+</html>

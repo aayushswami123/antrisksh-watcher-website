@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		*{
+			margin: 0px;
+			padding: 0px;
+
+		}
+		.nav{
+			position: fixed;
+			opacity: 0.9;
+			height:100px;
+			width:100%;
+			background:black;
+			float: left;
+			
+		}
+		.h1_1{
+			color: #f2b31f ;
+			font-family:Viner Hand ITC;
+			font-size: 50px;
+			float: left;
+			opacity: 1;
+			margin-top: 20px;
+			margin-left:150px ;
+
+		}
+		.button{
+			margin-top: 40px;
+			text-align: center;
+			margin-left:465px;
+			background:transparent;
+			float: left;
+			opacity:0.7;
+			height:40px;
+			width:110px;
+			transition: 0.3s;
+			opacity:0.7;
+		}
+		.button:hover{
+			border-bottom: 3px solid whitesmoke;
+			transition: 0.3s;
+			opacity:1;
+
+		}
+		.button2{
+			margin-top: 40px;
+			margin-left:50px;
+			background:transparent;
+			float: left;
+			height:40px;
+
+			width: 110px;
+			opacity:0.7;
+		}
+		.button2:hover{
+			border-bottom: 3px solid white;
+			transition: 0.3s;
+			opacity:1;
+
+		}
+
+		
+		.a_1{
+			color: whitesmoke;
+			text-decoration: none;
+			font-size:18px;
+			font-family:Bahnschrift;
+			text-align: center;
+
+		}
+		.a_2{
+			color: whitesmoke;
+			text-decoration: none;
+			font-size:18px;
+			font-family:Bahnschrift;
+			margin-left:20px;
+			text-align: center;
+
+		}
+		.a_3{
+			color: whitesmoke;
+			text-decoration: none;
+			font-size:18px;
+			margin-left:25px;
+			font-family:Bahnschrift;
+			text-align: center;
+
+		}
+		.a_4{
+			color: whitesmoke;
+			text-decoration: none;
+			font-size:18px;
+			margin-left:30px;
+			font-family:Bahnschrift;
+			text-align: center;
+
+		}
+		.img1{
+			height:500px;
+			float: left;
+			width: 90%;
+			margin-bottom:20px;
+			margin-top:20px;
+			margin-left:50px;
+		}
+		.img2{
+			height:500px;
+			width:957px;
+			float: left;
+			margin-bottom:20px;
+			margin-left:0px;
+		}
+		.img3{
+			height:600px;
+			width:957px;
+			margin-bottom:20px;
+			float: left;
+			margin-left:0px;
+		}
+
+		.div1{
+			background-color:white ;
+			height:2500px;
+			width:100%;
+		}
+		.div_b{
+			height:300px;
+			width: 100%;
+			background-color: black;
+			float: left;
+		}
+		.h1_n{
+			color:white;
+			font-family:Bahnschrift;
+			font-size:55px;
+			margin-left:650px;
+			margin-top:160px;
+		}
+		.div2{
+			background-color:white;
+			/*border:.5px solid grey;*/
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+			height:1900px;
+			width: 70%;
+			float: left;
+			margin-top:150px;
+			margin-left:15%;
+
+		}
+		.h1_2{
+			color: #f2b31f;
+			font-family:Bahnschrift;
+			text-align: center;
+			float: left	;
+			margin-top:20px;
+			margin-left:40%;
+			font-size:60px;
+
+
+		}
+	
+
+		
+		.h3_1{
+			color:black;
+			font-size:20px;
+			margin-left:50px;
+			margin-right:400px;
+			font-family:Bahnschrift;
+
+		}                                                              /*footer*/
+
+		.div5{
+			height: 450px;
+			width: 1519px;
+			background-color: black;
+			float: left;
+		}
+		.f1{
+			height:400px;
+			width:40%;	
+			float: left;
+			
+		}
+		.h1_14{
+			margin-left:150px;
+			margin-top:120px;
+			color: #f2b31f;
+			font-family:Viner Hand ITC ;
+			font-size:50px;
+		}
+		.h3_2{
+			margin-left:150px;
+			margin-top:20px;
+			color: whitesmoke;
+			font-family:Bahnschrift ;
+			font-size:17px;
+
+		}
+		.f2{
+			height:400px;
+			width:60%;	
+			float: left;s
+
+		}
+		.h1_15{
+			color: whitesmoke ;
+			font-size:30px;
+			margin-top:50px;
+			font-family:Bahnschrift;
+			margin-left: 150px;
+		}
+		.h1_16{
+        	color: whitesmoke;
+        	margin-top:-150px;
+        	font-size:20px;
+        	font-family:Bahnschrift;
+        	margin-left: 450px;
+
+        }
+
+		.a_12{
+			color: whitesmoke;
+			font-family:Bahnschrift;
+			font-size: 18px;
+			transition-duration:1s;
+			text-decoration: none;
+			margin-left: 150px;
+		}
+		.a_12:hover{
+			color: #f2b31f;
+            transition: 0.5s;
+		}
+		.button_last{
+			margin-top: 10px;
+			padding: 15px;
+			text-align: center;
+			margin-left:450px;
+			background-color:#f2b31f;
+			float: left;
+			font-family: Bahnschrift;
+			opacity:0.7;
+			height:50px;
+			transition-duration:1s;
+			width:270px;
+			opacity:0.8;
+		}
+		.button_last:hover{
+
+			transition: 0.3s;
+			opacity:1;
+
+
+		}
+
+        .f3{
+        	height:50px;
+			width:100%;	
+			float: left;
+			background-color:black;
+
+        }
+        .h1_17{
+        	color: whitesmoke;
+        	font-size:15px;
+        	font-family:Bahnschrift;
+        	margin-left: 150px;
+
+        }
+        .img_twitter{
+			height:20px ;
+			width:30px ;
+			margin-top:6px;
+
+		}
+		.img_facebook{
+			height:20px ;
+			width:20px ;
+			margin-top:6px;
+
+		}
+		.img_instagram{
+			height:20px ;
+			width:20px ;
+			margin-top:5px;
+
+		}
+		.a{
+			color:#f2b31f; 
+			font-size: 20px;
+		    float: left;
+		    opacity: 1;
+		    font-family: Bahnschrift;
+		    margin-left: 30px;
+		    text-decoration: none;
+
+		}
+		.a:hover{
+			opacity:0.6;	
+			transition: 0.7s;
+		}
+		
+	</style>
+</head>
+<body>
+
+	<div class="nav">
+				<h1 class="h1_1">DisCover</h1>
+			    <a href="homepage_final.html" class="a_1" ><div class="button">Home</a></div>
+			    <a href="About.html" class="a_3"><div class="button2">About</div></a>
+			    <a href="contact.html" class="a_2"><div class="button2">Contact</div></a>
+			    <a href="more.html" class="a_4"><div class="button2">More</div></a>	
+	</div>
+	<div class="div1">
+		<div class="div_b"> <h1 class="h1_n">Discoverer </h1></div>
+		<div class="div2">
+			<h1 class="h1_2">MAVEN</h1>
+
+			<img src="../images/MAVEN.png" class="img1">
+			<br><br>
+			<h3 class="h3_1">
+				Mars Atmosphere and Volatile Evolution(MAVEN) is a spacecraft developed by NASA to <font color="#f2b31f">investigate the upper atmosphere and ionosphere of Mars</font> and how the solar wind strips volatile compounds from this atmosphere. This research gives insight into how the planet's climate has changed over time. MAVEN launched on an Atlas V rocket from Cape Canaveral Air Force Station on <font color="#f2b31f">18 November 2013</font> and went into orbit around Mars on 22 September 2014.<br><br>
+
+
+
+				The principal investigator for the spacecraft is <font color="#f2b31f">Shannon Curry</font> at the University of California, Berkeley. She took over from Bruce Jakosky of the Laboratory for Atmospheric and Space Physics at the University of Colorado Boulder, who proposed and led the mission until 2021. The project cost <font color="#f2b31f">US$582.5 million</font> to build, launch, and operate through its two-year prime mission. <br><br>
+
+				The mission's acronym is derived from the word maven, meaning <font color="#f2b31f">"a person who has special knowledge or experience; an expert"</font>.<br><br>
+
+
+
+				In October 2014, as the spacecraft was being fine-tuned to start its primary science mission, the Comet Siding Spring was also performing a close flyby of Mars. The researchers had to maneuver the craft to mitigate <font color="#f2b31f">harmful effects of the comet</font>, but while doing so, were able to observe the comet and perform measurements on the composition of expelled gases and dust. <br><br>
+
+			
+
+				On 16 November 2014, investigators completed MAVEN's commissioning activities and began its primary science mission, scheduled to last one year. During that time, MAVEN had observed a nearby comet, measured how volatile gases are swept away by solar wind, and performed four "deep dips" down to the border of the upper and lower atmospheres to better characterize the planet's entire upper atmosphere. In <font color="#f2b31f">June 2015, the science phase was extended through September 2016</font>, allowing MAVEN to observe the Martian atmosphere through the entirety of the planet's seasons.<br><br>
+
+				On 5 November 2015, NASA announced that data from MAVEN shows that the deterioration of Mars's atmosphere increases significantly during solar storms. 
+
+				 <br><br>
+
+
+				That loss of atmosphere to space likely played a key role in Mars's gradual shift from its carbon dioxide–dominated atmosphere – which had kept Mars relatively warm and allowed the planet to support liquid surface water – to the cold, arid planet seen today. This shift took place between about <font color="#f2b31f">4.2 and 3.7 billion years ago.</font>Atmospheric loss was especially notable during an interplanetary coronal mass ejection in March 2015.
+	
+				<br>
+				 <font face="Bahnschrift"><br>  
+				 <h3 style=" margin-left:0px; font-size:20px;"> <font face="Bahnschrift">Courtesy: Wikipedia </font></h3>
+
+            </h3>
+		</div>
+	</div>
+	<div class="div5">
+			<div class="f1">
+				<h1 class="h1_14">DisCover</h1>
+				<h3 class="h3_2	">Let us discover the discoverer of Mars, Saturn, Jupiter, Mercury, Venus, Neptune, Interstellar space, Moon and Sun, learn their importance and spread the knowledge together …  </h3>
+				
+			</div>
+			<div class="f2">
+				<h1 class="h1_15">Quick Links</h1><br>
+				<a href="homepage_final.html" class="a_12">Home</a><br><br>
+				<a href="About.html" class="a_12">About</a><br><br>
+				<a href="contact.html" class="a_12">Contact</a><br><br>
+				<a href="more.html" class="a_12">More</a><br><br>
+
+				<h1 class="h1_16">For any quaries and complaints </h1><br>
+				<a href="contact.html" style="text-decoration:none; color:black;"><h1 class="button_last">Contact Us</h1></a>
+				
+				<h3 style="color:white; float: left; margin-left: 460px; font-family: Bahnschrift; margin-top:5px;">follow us on:</h3>
+			    <a href="#" class="a"><img class="img_twitter" src="../images/twitter.png"></a>
+			    <a href="#" class="a"><img class="img_facebook" src="../images/facebook.png"></a>
+			    <a href="#" class="a"><img class="img_instagram" src="../images/instagram.png"></a>
+
+			</div>
+			
+			    
+			<div class="f3">
+				<h1 class="h1_17">Copyright 2021 Discover.com. All Copyrights Reserved.</h1>
+			</div>
+			
+		</div>
+
+</body>
+</html>

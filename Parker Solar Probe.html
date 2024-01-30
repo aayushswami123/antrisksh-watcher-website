@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		*{
+			margin: 0px;
+			padding: 0px;
+
+		}
+		.nav{
+			position: fixed;
+			opacity: 0.9;
+			height:100px;
+			width:100%;
+			background:black;
+			float: left;
+			
+		}
+		.h1_1{
+			color: #f2b31f ;
+			font-family:Viner Hand ITC;
+			font-size: 50px;
+			float: left;
+			opacity: 1;
+			margin-top: 20px;
+			margin-left:150px ;
+
+		}
+		.button{
+			margin-top: 40px;
+			text-align: center;
+			margin-left:465px;
+			background:transparent;
+			float: left;
+			opacity:0.7;
+			height:40px;
+			width:110px;
+			transition: 0.3s;
+			opacity:0.7;
+		}
+		.button:hover{
+			border-bottom: 3px solid whitesmoke;
+			transition: 0.3s;
+			opacity:1;
+
+		}
+		.button2{
+			margin-top: 40px;
+			margin-left:50px;
+			background:transparent;
+			float: left;
+			height:40px;
+
+			width: 110px;
+			opacity:0.7;
+		}
+		.button2:hover{
+			border-bottom: 3px solid white;
+			transition: 0.3s;
+			opacity:1;
+
+		}
+
+		
+		.a_1{
+			color: whitesmoke;
+			text-decoration: none;
+			font-size:18px;
+			font-family:Bahnschrift;
+			text-align: center;
+
+		}
+		.a_2{
+			color: whitesmoke;
+			text-decoration: none;
+			font-size:18px;
+			font-family:Bahnschrift;
+			margin-left:20px;
+			text-align: center;
+
+		}
+		.a_3{
+			color: whitesmoke;
+			text-decoration: none;
+			font-size:18px;
+			margin-left:25px;
+			font-family:Bahnschrift;
+			text-align: center;
+
+		}
+		.a_4{
+			color: whitesmoke;
+			text-decoration: none;
+			font-size:18px;
+			margin-left:30px;
+			font-family:Bahnschrift;
+			text-align: center;
+
+		}
+		.img1{
+			height:600px;
+			float: left;
+			width: 90%;
+			margin-bottom:20px;
+			margin-top:20px;
+			margin-left:50px;
+		}
+		.img2{
+			height:500px;
+			width:957px;
+			float: left;
+			margin-bottom:20px;
+			margin-left:0px;
+		}
+		.img3{
+			height:600px;
+			width:957px;
+			margin-bottom:20px;
+			float: left;
+			margin-left:0px;
+		}
+
+		.div1{
+			background-color:white ;
+			height:3800px;
+			width:100%;
+		}
+		.div_b{
+			height:300px;
+			width: 100%;
+			background-color: black;
+			float: left;
+		}
+		.h1_n{
+			color:white;
+			font-family:Bahnschrift;
+			font-size:55px;
+			margin-left:650px;
+			margin-top:160px;
+		}
+		.div2{
+			background-color:white;
+			/*border:.5px solid grey;*/
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+			height:3250px;
+			width: 70%;
+			float: left;
+			margin-top:150px;
+			margin-left:15%;
+
+		}
+		.h1_2{
+			color: #f2b31f;
+			font-family:Bahnschrift;
+			text-align: center;
+			float: left	;
+			margin-top:20px;
+			margin-left:27%;
+			font-size:60px;
+
+
+		}
+	
+
+		
+		.h3_1{
+			color:black;
+			font-size:20px;
+			margin-left:50px;
+			margin-right:400px;
+			font-family:Bahnschrift;
+
+		}                                                              /*footer*/
+
+		.div5{
+			height: 450px;
+			width: 1519px;
+			background-color: black;
+			float: left;
+		}
+		.f1{
+			height:400px;
+			width:40%;	
+			float: left;
+			
+		}
+		.h1_14{
+			margin-left:150px;
+			margin-top:120px;
+			color: #f2b31f;
+			font-family:Viner Hand ITC ;
+			font-size:50px;
+		}
+		.h3_2{
+			margin-left:150px;
+			margin-top:20px;
+			color: whitesmoke;
+			font-family:Bahnschrift ;
+			font-size:17px;
+
+		}
+		.f2{
+			height:400px;
+			width:60%;	
+			float: left;s
+
+		}
+		.h1_15{
+			color: whitesmoke ;
+			font-size:30px;
+			margin-top:50px;
+			font-family:Bahnschrift;
+			margin-left: 150px;
+		}
+		.h1_16{
+        	color: whitesmoke;
+        	margin-top:-150px;
+        	font-size:20px;
+        	font-family:Bahnschrift;
+        	margin-left: 450px;
+
+        }
+
+		.a_12{
+			color: whitesmoke;
+			font-family:Bahnschrift;
+			font-size: 18px;
+			transition-duration:1s;
+			text-decoration: none;
+			margin-left: 150px;
+		}
+		.a_12:hover{
+			color: #f2b31f;
+            transition: 0.5s;
+		}
+		.button_last{
+			margin-top: 10px;
+			padding: 15px;
+			text-align: center;
+			margin-left:450px;
+			background-color:#f2b31f;
+			float: left;
+			font-family: Bahnschrift;
+			opacity:0.7;
+			height:50px;
+			transition-duration:1s;
+			width:270px;
+			opacity:0.8;
+		}
+		.button_last:hover{
+
+			transition: 0.3s;
+			opacity:1;
+
+
+		}
+
+        .f3{
+        	height:50px;
+			width:100%;	
+			float: left;
+			background-color:black;
+
+        }
+        .h1_17{
+        	color: whitesmoke;
+        	font-size:15px;
+        	font-family:Bahnschrift;
+        	margin-left: 150px;
+
+        }
+        .img_twitter{
+			height:20px ;
+			width:30px ;
+			margin-top:6px;
+
+		}
+		.img_facebook{
+			height:20px ;
+			width:20px ;
+			margin-top:6px;
+
+		}
+		.img_instagram{
+			height:20px ;
+			width:20px ;
+			margin-top:5px;
+
+		}
+		.a{
+			color:#f2b31f; 
+			font-size: 20px;
+		    float: left;
+		    opacity: 1;
+		    font-family: Bahnschrift;
+		    margin-left: 30px;
+		    text-decoration: none;
+
+		}
+		.a:hover{
+			opacity:0.6;	
+			transition: 0.7s;
+		}
+		
+	</style>
+</head>
+<body>
+
+	<div class="nav">
+				<h1 class="h1_1">DisCover</h1>
+			    <a href="homepage_final.html" class="a_1" ><div class="button">Home</div></a>
+			    <a href="About.html" class="a_3"><div class="button2">About</div></a>
+			    <a href="contact.html" class="a_2"><div class="button2">Contact</div></a>
+			    <a href="more.html" class="a_4"><div class="button2">More</div></a>
+	</div>
+	<div class="div1">
+		<div class="div_b"> <h1 class="h1_n">Discoverer </h1></div>
+		<div class="div2">
+			<h1 class="h1_2">Parker Solar Probe</h1>
+
+			<img src="../images/PSP.png" class="img1">
+			<br><br>
+			<h3 class="h3_1">
+
+
+				The Parker Solar Probe is a <font color="#f2b31f">NASA space probe launched in 2018</font> with the mission of making observations of the outer corona of the Sun. It will approach to within <font color="#f2b31f">9.86 solar radii</font> (6.9 million km or 4.3 million miles) from the center of the Sun, and by 2025 will travel, at closest approach, as fast as 690,000 km/h (430,000 mph), or 0.064% the speed of light.<br><br>
+
+                The project was announced in the fiscal 2009 budget year. The cost of the project is <font color="#f2b31f">US$1.5 billion</font>. Johns Hopkins University Applied Physics Laboratory designed and built the spacecraft, which was launched on <font color="#f2b31f">12 August 2018</font>. It became the first NASA spacecraft named after a living person, honoring nonagenarian physicist <font color="#f2b31f">Eugene Newman Parker</font>, professor emeritus at the University of Chicago. <br><br>
+
+
+			    A <font color="#f2b31f">memory card containing the names of over 1.1 million people</font> was mounted on a plaque and installed below the spacecraft's high-gain antenna on 18 May 2018. The card also contains photos of Parker and a copy of his 1958 scientific paper predicting important aspects of solar physics.<br><br>
+
+                On <font color="#f2b31f">29 October 2018</font>, at about 18:04 UTC, the spacecraft became the <font color="#f2b31f">closest ever artificial object to the Sun</font>. The previous record, 42.73 million kilometres (26.55 million miles) from the Sun's surface, was set by the Helios 2 spacecraft in April 1976. As of its perihelion 29 April 2021, the Parker Solar Probe's <font color="#f2b31f">closest approach is 10.5 million kilometres</font> (6.5 million miles). This will be surpassed after each successive flyby of Venus.<br><br>
+
+                The Parker Solar Probe concept <font color="#f2b31f">originates in the 1958 report by the Fields and Particles Group</font> which proposed several space missions including "a solar probe to pass inside the orbit of Mercury to study the particles and fields in the vicinity of the Sun". Studies in the 1970s and 1980s reaffirmed its importance, but it was always postponed due to cost. A cost-reduced Solar Orbiter mission was studied in the 1990s, and a more capable Solar Probe mission served as one of the centerpieces of the eponymous Outer Planet/Solar Probe program formulated by NASA in the late 1990s.<br><br>
+
+                The spacecraft's systems are protected from the extreme heat and radiation near the Sun by a <font color="#f2b31f">solar shield</font>. Incident solar radiation at perihelion is approximately <font color="#f2b31f">650 kW/m2</font>, or 475 times the intensity at Earth orbit.The solar shield is hexagonal, mounted on the Sun-facing side of the spacecraft, <font color="#f2b31f">2.3 m in diameter, 11.4 cm thick</font>, and is made of reinforced carbon–carbon composite, which is designed to withstand temperatures outside the spacecraft of about <font color="#f2b31f">1,370 °C</font>.<br><br>
+
+
+
+				A<font color="#f2b31f"> white reflective alumina surface layer</font> minimizes absorption. The spacecraft systems and scientific instruments are located in the <font color="#f2b31f">central portion of the shield's shadow</font>, where direct radiation from the Sun is fully blocked. If the shield were not between the spacecraft and the Sun, the probe would be damaged and become inoperative within tens of seconds. As <font color="#f2b31f">radio communication with Earth will take about eight minutes in each direction</font>, the Parker Solar Probe will have to act autonomously and rapidly to protect itself. This will be done using four light sensors to detect the first traces of direct sunlight coming from the shield limits and engaging movements from reaction wheels to reposition the spacecraft within the shadow again. <br><br>
+
+			
+
+				Within each orbit of the Parker Solar Probe around the Sun, the portion within 0.25 AU is the Science Phase, in which the probe is <font color="#f2b31f"> and autonomously making observations</font>. Communication with the probe is largely cut off in that phase. Science phases run for a few days both before and after each perihelion. They lasted 11.6 days for the earliest perihelion, and will drop to 9.6 days for the final, closest perihelion. <br><br>
+
+                Much of the rest of each orbit is devoted to transmitting data from the science phase. But during this part of each orbit, there are still periods when communication is not possible. First, the requirement that the heat shield of the probe be pointed towards the Sun sometimes puts the heat shield between the antenna and Earth. Second, even when the probe is not particularly near the Sun, when the angle between the probe and the Sun is too small, the Sun's radiation can overwhelm the communication link. <br><br>
+
+                On<font color="#f2b31f"> 4 December 2019</font>, the first four research papers were published describing findings during the spacecraft's first two dives near the Sun.They reported the <font color="#f2b31f">direction and strength of the Sun's magnetic field</font>, and described the unusually frequent and short-lived changes in the direction of the Sun's magnetic field. These measurements confirm the hypothesis that Alfvén waves are the leading candidates for understanding the mechanisms that underlie the coronal heating problem. <br><br>		
+
+
+                The probe observed approximately<font color="#f2b31f"> a thousand "rogue" magnetic waves</font> in the solar atmosphere that instantly increase solar winds by as much as <font color="#f2b31f">300,000 miles per hour</font> (480,000 km/h) and in some cases completely reverse the local magnetic field. They also reported that, using the "beam of electrons that stream along the magnetic field", they were able to observe that "the reversals in the Sun's magnetic field are often associated with localized enhancements in the radial component of the plasma velocity". The researchers found a <font color="#f2b31f">"surprisingly large azimuthal component of the plasma velocity</font>. This component results from the force with which the Sun's rotation slingshots plasma out of the corona when the plasma is released from the coronal magnetic field".
+	
+				<br>
+				 <font face="Bahnschrift"><br>  
+				 <h3 style=" margin-left:0px; font-size:20px;"> <font face="Bahnschrift">Courtesy: Wikipedia </font></h3>
+
+            </h3>
+		</div>
+	</div>
+	<div class="div5">
+			<div class="f1">
+				<h1 class="h1_14">DisCover</h1>
+				<h3 class="h3_2	">Let us discover the discoverer of Mars, Saturn, Jupiter, Mercury, Venus, Neptune, Interstellar space, Moon and Sun, learn their importance and spread the knowledge together …  </h3>
+				
+			</div>
+			<div class="f2">
+				<h1 class="h1_15">Quick Links</h1><br>
+				<a href="homepage_final.html" class="a_12">Home</a><br><br>
+				<a href="About.html" class="a_12">About</a><br><br>
+				<a href="contact.html" class="a_12">Contact</a><br><br>
+				<a href="more.html" class="a_12">More</a><br><br>
+
+				<h1 class="h1_16">For any quaries and complaints </h1><br>
+				<a href="contact.html" style="text-decoration:none; color:black;"><h1 class="button_last">Contact Us</h1></a>
+				
+				<h3 style="color:white; float: left; margin-left: 460px; font-family: Bahnschrift; margin-top:5px;">follow us on:</h3>
+			    <a href="#" class="a"><img class="img_twitter" src="../images/twitter.png"></a>
+			    <a href="#" class="a"><img class="img_facebook" src="../images/facebook.png"></a>
+			    <a href="#" class="a"><img class="img_instagram" src="../images/instagram.png"></a>
+
+			</div>
+			
+			    
+			<div class="f3">
+				<h1 class="h1_17">Copyright 2021 Discover.com. All Copyrights Reserved.</h1>
+			</div>
+			
+		</div>
+
+</body>
+</html>

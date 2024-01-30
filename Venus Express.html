@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		*{
+			margin: 0px;
+			padding: 0px;
+
+		}
+		.nav{
+			position: fixed;
+			opacity: 0.9;
+			height:100px;
+			width:100%;
+			background:black;
+			float: left;
+			
+		}
+		.h1_1{
+			color: #f2b31f ;
+			font-family:Viner Hand ITC;
+			font-size: 50px;
+			float: left;
+			opacity: 1;
+			margin-top: 20px;
+			margin-left:150px ;
+
+		}
+		.button{
+			margin-top: 40px;
+			text-align: center;
+			margin-left:465px;
+			background:transparent;
+			float: left;
+			opacity:0.7;
+			height:40px;
+			width:110px;
+			transition: 0.3s;
+			opacity:0.7;
+		}
+		.button:hover{
+			border-bottom: 3px solid whitesmoke;
+			transition: 0.3s;
+			opacity:1;
+
+		}
+		.button2{
+			margin-top: 40px;
+			margin-left:50px;
+			background:transparent;
+			float: left;
+			height:40px;
+
+			width: 110px;
+			opacity:0.7;
+		}
+		.button2:hover{
+			border-bottom: 3px solid white;
+			transition: 0.3s;
+			opacity:1;
+
+		}
+
+		
+		.a_1{
+			color: whitesmoke;
+			text-decoration: none;
+			font-size:18px;
+			font-family:Bahnschrift;
+			text-align: center;
+
+		}
+		.a_2{
+			color: whitesmoke;
+			text-decoration: none;
+			font-size:18px;
+			font-family:Bahnschrift;
+			margin-left:20px;
+			text-align: center;
+
+		}
+		.a_3{
+			color: whitesmoke;
+			text-decoration: none;
+			font-size:18px;
+			margin-left:25px;
+			font-family:Bahnschrift;
+			text-align: center;
+
+		}
+		.a_4{
+			color: whitesmoke;
+			text-decoration: none;
+			font-size:18px;
+			margin-left:30px;
+			font-family:Bahnschrift;
+			text-align: center;
+
+		}
+		.img1{
+			height:500px;
+			float: left;
+			width: 90%;
+			margin-bottom:20px;
+			margin-top:20px;
+			margin-left:50px;
+		}
+		.img2{
+			height:500px;
+			width:957px;
+			float: left;
+			margin-bottom:20px;
+			margin-left:0px;
+		}
+		.img3{
+			height:600px;
+			width:957px;
+			margin-bottom:20px;
+			float: left;
+			margin-left:0px;
+		}
+
+		.div1{
+			background-color:white ;
+			height:2500px;
+			width:100%;
+		}
+		.div_b{
+			height:300px;
+			width: 100%;
+			background-color: black;
+			float: left;
+		}
+		.h1_n{
+			color:white;
+			font-family:Bahnschrift;
+			font-size:55px;
+			margin-left:650px;
+			margin-top:160px;
+		}
+		.div2{
+			background-color:white;
+			/*border:.5px solid grey;*/
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+			height:1900px;
+			width: 70%;
+			float: left;
+			margin-top:150px;
+			margin-left:15%;
+
+		}
+		.h1_2{
+			color: #f2b31f;
+			font-family:Bahnschrift;
+			text-align: center;
+			float: left	;
+			margin-top:20px;
+			margin-left:35%;
+			font-size:60px;
+
+
+		}
+	
+
+		
+		.h3_1{
+			color:black;
+			font-size:20px;
+			margin-left:50px;
+			margin-right:400px;
+			font-family:Bahnschrift;
+
+		}                                                              /*footer*/
+
+		.div5{
+			height: 450px;
+			width: 1519px;
+			background-color: black;
+			float: left;
+		}
+		.f1{
+			height:400px;
+			width:40%;	
+			float: left;
+			
+		}
+		.h1_14{
+			margin-left:150px;
+			margin-top:120px;
+			color: #f2b31f;
+			font-family:Viner Hand ITC ;
+			font-size:50px;
+		}
+		.h3_2{
+			margin-left:150px;
+			margin-top:20px;
+			color: whitesmoke;
+			font-family:Bahnschrift ;
+			font-size:17px;
+
+		}
+		.f2{
+			height:400px;
+			width:60%;	
+			float: left;s
+
+		}
+		.h1_15{
+			color: whitesmoke ;
+			font-size:30px;
+			margin-top:50px;
+			font-family:Bahnschrift;
+			margin-left: 150px;
+		}
+		.h1_16{
+        	color: whitesmoke;
+        	margin-top:-150px;
+        	font-size:20px;
+        	font-family:Bahnschrift;
+        	margin-left: 450px;
+
+        }
+
+		.a_12{
+			color: whitesmoke;
+			font-family:Bahnschrift;
+			font-size: 18px;
+			transition-duration:1s;
+			text-decoration: none;
+			margin-left: 150px;
+		}
+		.a_12:hover{
+			color: #f2b31f;
+            transition: 0.5s;
+		}
+		.button_last{
+			margin-top: 10px;
+			padding: 15px;
+			text-align: center;
+			margin-left:450px;
+			background-color:#f2b31f;
+			float: left;
+			font-family: Bahnschrift;
+			opacity:0.7;
+			height:50px;
+			transition-duration:1s;
+			width:270px;
+			opacity:0.8;
+		}
+		.button_last:hover{
+
+			transition: 0.3s;
+			opacity:1;
+
+
+		}
+
+        .f3{
+        	height:50px;
+			width:100%;	
+			float: left;
+			background-color:black;
+
+        }
+        .h1_17{
+        	color: whitesmoke;
+        	font-size:15px;
+        	font-family:Bahnschrift;
+        	margin-left: 150px;
+
+        }
+        .img_twitter{
+			height:20px ;
+			width:30px ;
+			margin-top:6px;
+
+		}
+		.img_facebook{
+			height:20px ;
+			width:20px ;
+			margin-top:6px;
+
+		}
+		.img_instagram{
+			height:20px ;
+			width:20px ;
+			margin-top:5px;
+
+		}
+		.a{
+			color:#f2b31f; 
+			font-size: 20px;
+		    float: left;
+		    opacity: 1;
+		    font-family: Bahnschrift;
+		    margin-left: 30px;
+		    text-decoration: none;
+
+		}
+		.a:hover{
+			opacity:0.6;	
+			transition: 0.7s;
+		}
+		
+	</style>
+</head>
+<body>
+
+	<div class="nav">
+				<h1 class="h1_1">DisCover</h1>
+			    <a href="homepage_final.html" class="a_1" ><div class="button">Home</div></a>
+			    <a href="About.html" class="a_3"><div class="button2">About</div></a>
+			    <a href="contact.html" class="a_2"><div class="button2">Contact</div></a>
+			    <a href="more.html" class="a_4"><div class="button2">More</div></a>	
+	</div>
+	<div class="div1">
+		<div class="div_b"> <h1 class="h1_n">Discoverer </h1></div>
+		<div class="div2">
+			<h1 class="h1_2">Venus Express</h1>
+
+			<img src="../images/venus_e.png" class="img1">
+			<br><br>
+			<h3 class="h3_1">
+
+
+				Venus Express (VEX) was the first Venus exploration mission of the European Space Agency (ESA). Launched in <font color="#f2b31f">November 2005</font>, it arrived at Venus in <font color="#f2b31f">April 2006</font> and began continuously sending back science data from its polar orbit around Venus. Equipped with seven scientific instruments, the main objective of the mission was the long term observation of the Venusian atmosphere. <br><br>
+
+
+			    The <font color="#f2b31f">observation over such long periods of time</font> had never been done in previous missions to Venus, and was key to a better understanding of the atmospheric dynamics. It was hoped that such studies can contribute to an understanding of atmospheric dynamics in general, while also contributing to an understanding of climate change on Earth. ESA <font color="#f2b31f">concluded the mission in December 2014</font>.<br><br>
+
+                Venus Express was also used to observe signs of life on Earth from Venus orbit. In images acquired by the probe, Earth was <font color="#f2b31f">less than one pixel in size</font>, which mimics observations of Earth-sized planets in other planetary systems. These observations were then used to develop methods for habitability studies of exoplanets.<br><br>
+
+                The main engine fired at 07:10:29 UT (spacecraft time) to insert Venus Express into orbit around the planet, thus becoming the <font color="#f2b31f">first European spacecraft to orbit Venus</font>. It achieved its operational orbit of about 155 × 41,000 miles (250 × 66,000 kilometers) by May 7, 2007.The original Venus Express mission was planned to last no more than <font color="#f2b31f">500 Earth days</font>, but the mission was <font color="#f2b31f">extended five times</font>: to May 2009, to December 2009, to December 2012, to 2014 and finally to 2015.<br><br>
+
+
+
+				In 2011, scientists studying data from Venus Express reported the existence of a layer of <font color="#f2b31f">ozone in the upper atmosphere</font>.After eight years in orbit, as propellant supplies to maintain its elliptical orbit began running low, routine science experiments were concluded May 15, 2014.Mission scientists decided to undertake a series of aerobraking maneuvers during which the <font color="#f2b31f">spacecraft would dip deeper into the atmosphere</font> than it had before. The duration of these dips was about 100 seconds with a maximum dynamic pressure that probably was a record for a spacecraft still orbiting a planetary body.<br><br>
+
+			
+
+				Having reached this point, the orbit of Venus Express decayed naturally the remainder of the year. There was an attempt in late November to arrest the decay but contact with the spacecraft was lost <font color="#f2b31f">Nov. 28, 2014</font>, with only intermittent telemetry and telecommand links after that point.On <font color="#f2b31f">Dec. 16, 2014, ESA officially announced the end of the mission</font> although a carrier signal was still being received. The last time that this X-band carrier signal was detected was Jan. 19, 2015, suggesting that the orbiter burned up in the atmosphere soon after.
+	
+				<br>
+				 <font face="Bahnschrift"><br>  
+				 <h3 style=" margin-left:0px; font-size:20px;"> <font face="Bahnschrift">Courtesy: Wikipedia & solarsystem.nasa.gov</font></h3>
+
+            </h3>
+		</div>
+	</div>
+	<div class="div5">
+			<div class="f1">
+				<h1 class="h1_14">DisCover</h1>
+				<h3 class="h3_2	">Let us discover the discoverer of Mars, Saturn, Jupiter, Mercury, Venus, Neptune, Interstellar space, Moon and Sun, learn their importance and spread the knowledge together …  </h3>
+				
+			</div>
+			<div class="f2">
+				<h1 class="h1_15">Quick Links</h1><br>
+				<a href="homepage_final.html" class="a_12">Home</a><br><br>
+				<a href="About.html" class="a_12">About</a><br><br>
+				<a href="contact.html" class="a_12">Contact</a><br><br>
+				<a href="more.html" class="a_12">More</a><br><br>
+
+				<h1 class="h1_16">For any quaries and complaints </h1><br>
+				<a href="contact.html" style="text-decoration:none; color:black;"><h1 class="button_last">Contact Us</h1></a>
+				
+				<h3 style="color:white; float: left; margin-left: 460px; font-family: Bahnschrift; margin-top:5px;">follow us on:</h3>
+			    <a href="#" class="a"><img class="img_twitter" src="../images/twitter.png"></a>
+			    <a href="#" class="a"><img class="img_facebook" src="../images/facebook.png"></a>
+			    <a href="#" class="a"><img class="img_instagram" src="../images/instagram.png"></a>
+
+			</div>
+			
+			    
+			<div class="f3">
+				<h1 class="h1_17">Copyright 2021 Discover.com. All Copyrights Reserved.</h1>
+			</div>
+			
+		</div>
+
+</body>
+</html>
